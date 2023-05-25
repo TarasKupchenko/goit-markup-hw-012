@@ -51,7 +51,7 @@ body{
    letter-spacing: 0.02em;
    
 }
-,.list-item a{
+.list-item a{
    color: var(--list-color);
 }
 .list-item a:hover,
