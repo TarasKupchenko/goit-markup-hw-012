@@ -2,6 +2,7 @@
    --main-background: #FFFFFF;
    --color-logo: #4d5ae5;
    --color-sublogo:  #2e2f42;
+   --color-adress: #434455;
 }
 
 body{
@@ -60,6 +61,7 @@ address{
    font-size: 16px;
    ine-height: 1.5;
    letter-spacing: 0.02em;
+   color: var(--color-adress);
 }
 .header-link:hover,
 .header-link:focus{
