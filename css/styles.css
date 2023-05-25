@@ -50,8 +50,8 @@ body{
    letter-spacing: 0.02em;
    color: var(--color-sublogo);
 }
-.list-item:hover,
-.list-item:focus{
+.first-list:hover,
+.first-list:focus{
    color: #404bbf;
 }
 address{
