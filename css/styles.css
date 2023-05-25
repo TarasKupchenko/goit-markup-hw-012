@@ -7,6 +7,7 @@
    --sub-background: #2e2f42;
    --subtittle-color: #2e2f42;
    --footer-text: #F4F4FD;
+   --portfolio-btn: #F4F4FD;
 }
 
 body{
@@ -175,4 +176,26 @@ color: var(--color-adress);
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--footer-text);
+}
+
+/*------------------PORTFOLIO-----------------*/
+/*------------------CATEGORIES-----------------*/
+.cat-btn{
+   font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--color-logo);
+background-color: var(--portfolio-btn);
+}
+.cat-btn:hover,
+.cat-btn:focus{
+   color: #FFFFFF;
+   background-color: #404BBF;
+   cursor: pointer;
+}
+.categories-btn{
+
 }
