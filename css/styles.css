@@ -1,9 +1,10 @@
 :root{
-
+ --main-background: #FFFFFF;
 }
 
 body{
-   font-family: 'Roboto', sans-serif;
+   ont-family: "Roboto", sans-serif;
    color: #434455;
    background-color: #FFFFFF;
+   background-color: var(--main-background);
 }
