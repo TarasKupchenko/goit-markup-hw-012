@@ -4,6 +4,7 @@
    --color-sublogo:  #2e2f42;
    --color-adress: #434455;
    --list-color: #2e2f42;
+   --sub-background: #2e2f42;
 }
 
 body{
@@ -76,4 +77,30 @@ address{
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--color-adress);
+}
+
+/*------------------HERO-----------------*/
+.hero{
+   border-color: var(--sub-background);
+}
+.hero-tittle {
+   font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.hero-btn {
+   background-color: #4D5AE5;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+   background-color: #404BBF;
 }
