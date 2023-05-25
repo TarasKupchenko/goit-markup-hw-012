@@ -1,6 +1,7 @@
 :root{
  --main-background: #FFFFFF;
- --color-logo: #2e2f42 ;
+ --color-logo: #4d5ae5;
+ --color-sublogo:  #2e2f42;
 }
 
 body{
@@ -23,10 +24,10 @@ body{
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   
+   color: var(--color-logo);
 }
 .header-web{
-   color: var(--color-logo);
+   color: var(--color-sublogo);
 }
 .link{
    text-decoration: none;
