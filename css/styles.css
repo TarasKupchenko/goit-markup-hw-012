@@ -54,6 +54,9 @@ body{
 .list-item a{
    color: var(--list-color);
 }
+.list-item-link{
+   color: var(--list-color);
+}
 .list-item a:hover,
 .list-item a:focus{
    color: #404bbf;
