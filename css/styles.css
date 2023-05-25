@@ -8,3 +8,30 @@ body{
    background-color: #FFFFFF;
    background-color: var(--main-background);
 }
+
+/*--------------HEADER-------------------*/
+
+.header-navigation {
+  
+}
+.header-logo {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
+.header-web{
+   color: #4D5AE5;
+}
+.header-menu {
+   font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.header-link {
+}
