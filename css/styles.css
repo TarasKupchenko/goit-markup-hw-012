@@ -1,5 +1,6 @@
 :root{
  --main-background: #FFFFFF;
+ --color-logo: #4d5ae5;
 }
 
 body{
@@ -22,9 +23,13 @@ body{
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
+   color: var(--color-logo);
 }
 .header-web{
-   color: #4D5AE5;
+   
+}
+.link{
+   text-decoration: none;
 }
 .header-menu {
    font-weight: 500;
