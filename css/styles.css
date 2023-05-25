@@ -5,6 +5,7 @@
    --color-adress: #434455;
    --list-color: #2e2f42;
    --sub-background: #2e2f42;
+   --subtittle-color: #2e2f42;
 }
 
 body{
@@ -81,7 +82,7 @@ address{
 
 /*------------------HERO-----------------*/
 .hero{
-   border-color: var(--sub-background);
+   background-color: var(--sub-background);
 }
 .hero-tittle {
    font-weight: 700;
@@ -104,4 +105,19 @@ cursor: pointer;
 .hero-btn:hover,
 .hero-btn:focus{
    background-color: #404BBF;
+}
+
+/*------------------BENEFITS-----------------*/
+.list {
+}
+.benefits-tittle{
+   font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--subtittle-color);
+}
+.benefits-text {
+   line-height: 1.5;
+   letter-spacing: 0.02em;
 }
