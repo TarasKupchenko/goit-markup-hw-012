@@ -131,3 +131,34 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--subtittle-color);
 }
+
+/*------------------TEAM-----------------*/
+.team{
+   background-color: #F4F4FD;
+}
+.team-tittle {
+   font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--subtittle-color);
+}
+.team-list {
+   background-color: #FFFFFF
+}
+.team-subtittle {
+   font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--subtittle-color);
+}
+.team-text {
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--color-adress);
+}
